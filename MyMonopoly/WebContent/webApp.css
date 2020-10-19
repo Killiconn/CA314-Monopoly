@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+
+.StartScreen{
+	background-image: url("./StartScreen.png");
+	background-color: rgb(0, 255, 255);
+  	height: 50px;
+  	margin: 12px 12px;
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	position: relative;
+	
+}
+
+.StartGameButton{
+	text-align: center;
+}
+
+.PlayButton{
+	background-color: rgb(237, 28, 36);
+  	border: none;
+  	color: white;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	border: solid;
+  	border-color: white;
+  	border-width: 5px;
+  	border-radius: 10px;
+  	margin: 2px 2px;
+  	cursor: pointer;
+    position: relative; 
+  	bottom: -800px;
+    
+  	
+}
+/*All Web pages for the minute*/
+
+body{
+	background-color: rgb(237, 28, 36);
+	background-repeat: no-repeat;
+}
+
+/* Setup.html*/
+.Boxes{
+	font-size: 42px;
+}
+input[type=number]{
+  	width: 50%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+input[type = submit]{
+	background-color: rgb(230, 0, 0);
+  	border: none;
+  	color: black;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	margin: 2px 2px;
+  	cursor: pointer;	
+}
+
+.ConfirmDetails{
+	background-color: rgb(230, 0, 0);
+  	border: none;
+  	color: black;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	margin: 2px 2px;
+  	cursor: pointer;
+}
+
+.jsMessages{
+	position: absolute;
+	bottom: 70px;
+	font-size: 24px;
+}
+
+.SubmitDetails {
+	position: absolute;
+  	bottom: 10px;
+  	left: 10px
+}
+
+.ChooseTokens {
+	position: absolute;
+  	bottom: 10px;
+  	right: 10px;
+}
+
+
+
+/*End of setup.html*/
+
+/*ChooseToken.html*/
+
+.TokenChoosing{
+	background-image: url("./background.jpg");
+	background-repeat: no-repeat;
+}
+
+Input[type = image]{
+	width: 30px;
+	height: 30px;
+}
+
+/*StartGameRunner.java*/
+
+.GameBackground{
+	background-image: url(./NewMonopolyboard.png), url(./background.jpg);
+	background-position: top center;
+}
+
+.Player1{
+	position: absolute;
+	display: inline-block;
+	text-color: white;
+	top: 20px;
+	right: 20px;
+	width: 245px;
+	height: 102px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #AFC5B2;
+	border: 2px solid #243;
+	box-shadow: 0px 0px 0px #444;
+
+}
+.Player2{
+	position: absolute;
+	display: inline-block;
+	top: 132px;
+	right: 20px;
+	width: 245px;
+	height: 102px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #AFC5B2;
+	border: 2px solid #243;
+	box-shadow: 0px 0px 0px #444;
+
+}
+.Player3{
+	position: absolute;
+	display: inline-block;
+	top: 244px;
+	right: 20px;
+	width: 245px;
+	height: 102px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #AFC5B2;
+	border: 2px solid #243;
+	box-shadow: 0px 0px 0px #444;
+
+}
+.Player4{
+	position: absolute;
+	display: inline-block;
+	top: 356px;
+	right: 20px;
+	width: 245px;
+	height: 102px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background: #AFC5B2;
+	border: 2px solid #243;
+	box-shadow: 0px 0px 0px #444;
+
+}
+
+.money{
+	position: absolute;
+	top: -17px;
+	right: 2px;
+}
+
+.mainButtons {
+  	position: absolute;
+  	top: 30%;
+  	left: 27%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+.split {
+  	height: 100%;
+ 	width: 50%;
+ 	position: fixed;
+	z-index: 1;
+  	top: 0;
+  	overflow-x: hidden;
+  	padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  	left: 0;
+  	
+}
+
+
+.GreenButton{
+	background-color: green;
+  	border: none;
+  	color: white;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	border: solid;
+  	border-color: white;
+  	border-width: 5px;
+  	border-radius: 10px;
+  	margin: 2px 2px;
+  	cursor: pointer;
+}
+.Redbutton{
+	background-color: rgb(237, 28, 36);
+  	border: none;
+  	color: white;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	border: solid;
+  	border-color: white;
+  	border-width: 5px;
+  	border-radius: 10px;
+  	margin: 2px 2px;
+  	cursor: pointer;
+}
+
+.Neutral{
+	background-color: blue;
+  	border: none;
+  	color: white;
+  	font-size: 38px;
+  	padding: 10px 10px;
+  	text-decoration: none;
+  	border: solid;
+  	border-color: white;
+  	border-width: 5px;
+  	border-radius: 10px;
+  	margin: 2px 2px;
+  	cursor: pointer;
+}
+
+

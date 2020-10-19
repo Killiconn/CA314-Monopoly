@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>hello</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>MyServletDemo</servlet-name>
+		<servlet-class>MyServletDemo</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>HomeScreen</servlet-name>
+		<servlet-class>HomeScreen</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ChooseToken</servlet-name>
+		<servlet-class>HomeScreen</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>StartGameRunner</servlet-name>
+		<servlet-class>StartGameRunner</servlet-class>
+	</servlet>	
+
+	<servlet-mapping>
+		<servlet-name>MyServletDemo</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>HomeScreen</servlet-name>
+		<url-pattern>/GameSetUp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ChooseToken</servlet-name>
+		<url-pattern>/ChooseToken</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>StartGameRunner</servlet-name>
+		<url-pattern>/GameRunning</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+		<title> Game Set Up </title>
+		<link rel="stylesheet" href="./webApp.css">
+		<script type="text/javascript" src="./setup.js"></script>
+
+    </head>
+
+    <body>
+      	<div id = "FormForPlayers">
+        	
+        	<form action = "GameSetUp" method = "get">
+              	
+              	<section class = "Boxes">
+		  			Number Of Players Playing:<br>
+		  				<input type = "number" name = "No.OfPlayers" id = "players" min = 2 max = 4><br>
+		  			
+		  			Length Of Time Playing:(in Minutes)<br>
+		  				<input type = "number" name = "LengthOfTime" id = "time" min = 1 max = 1000><br>
+	  			</section>
+				
+				<section class = "buttons">
+				
+					<button class = "ConfirmDetails" type="button" onclick = "showInput();">Confirm Details</button>
+				
+				</section>
+				
+				<section class = "jsMessages">
+				
+					<p>
+						<span id = "input"></span>
+				  	</p>
+				
+				  	<p>
+				  		<span id = "playerEntered"></span>
+				  		<span id= "display"></span>
+				  	</p>
+				  	
+				  	
+				  	<p>
+				  		<span id = "timeEntered"></span>
+				  		<span id = "display2"></span>
+				  	</p>
+				  	
+				  	<p>
+				  		<span id = "msg"></span>
+				  	</p>
+			  	
+			  	</section>
+			  	
+			  	<section class = "buttons">
+				
+					<span id = "buttonAppear"></span>
+				
+				</section>
+	  				
+			</form>
+		
+		
+			<section class = "buttons">
+			
+				<form action = "GameRunning">
+			
+					<input class = "ChooseTokens" type = "submit" value = "Start Game">
+			
+				</form>
+			
+			</section>
+		
+		</div>
+		
+		<section class = "Player">
+			
+			<span class = "Players" id = "name"></span>
+			
+		
+		</section>
+		
+    </body>
+
+</html>
